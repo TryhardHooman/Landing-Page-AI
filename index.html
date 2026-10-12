@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hooman AI — Kerja lebih cerdas</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="container header">
+    <a class="logo" href="#">✳ Hooman<span> AI</span></a>
+    <nav aria-label="Navigasi utama">
+      <a href="#fitur">Fitur</a>
+      <a href="#testimoni">Testimoni</a>
+      <a href="#harga">Harga</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <div class="hero-copy">
+        <span class="tag">✦ Asisten AI untuk pekerjaan sehari-hari</span>
+        <h1>Kerja lebih cerdas,<br><span>bukan lebih keras.</span></h1>
+        <p>Hooman AI membantu menulis, mencari ide, dan menyelesaikan tugas lebih cepat. Fokuskan waktumu pada hal yang penting.</p>
+        <p class="note">Gratis untuk memulai. Tidak perlu kartu kredit.</p>
+      </div>
+      <div class="hero-art" aria-label="Ilustrasi asisten AI Hooman">
+        <div class="orb">✳</div>
+        <div class="chat-card"><span class="mini-logo">✳</span><div><b>Hai! Ada yang bisa kubantu?</b><p>Aku siap membantumu menyusun ide hari ini.</p></div></div>
+        <span class="spark spark-one">✦</span><span class="spark spark-two">✧</span>
+      </div>
+    </section>
+
+    <section class="features container section-divider" id="fitur">
+      <div class="section-heading">
+        <span class="tag">SEDERHANA DAN BERGUNA</span>
+        <h2>Satu asisten, banyak bantuan.</h2>
+      </div>
+      <div class="feature-grid">
+        <article class="feature-card"><span class="feature-icon">✍</span><h3>Bantu menulis</h3><p>Buat draf email, rangkuman, dan tulisan dengan lebih mudah.</p></article>
+        <article class="feature-card"><span class="feature-icon">💡</span><h3>Temukan ide</h3><p>Ubah pikiran awal menjadi ide segar dan rencana yang jelas.</p></article>
+        <article class="feature-card"><span class="feature-icon">📋</span><h3>Atur pekerjaan</h3><p>Susun daftar tugas agar pekerjaan terasa lebih teratur.</p></article>
+      </div>
+    </section>
+
+    <section class="testimonials container section-divider" id="testimoni">
+      <div class="section-heading">
+        <span class="tag">TESTIMONI PENGGUNA</span>
+        <h2>Yang sudah pakai Hooman AI, bilang ini membantu.</h2>
+      </div>
+      <div class="testimonial-grid">
+        <article class="testimonial-card">
+          <p>“Hooman AI membantu saya menulis email dan ringkasan rapat dalam hitungan menit. Saya jadi lebih cepat tanpa kehilangan kualitas.”</p>
+          <div class="person">
+            <div class="avatar"><img src="Aria.jpeg" alt="Aria"></div>
+            <div>
+              <strong>Aria Z.</strong>
+              <span>Marketing Lead</span>
+            </div>
+          </div>
+        </article>
+        <article class="testimonial-card">
+          <p>“Awalnya saya pikir AI cuma untuk menulis. Ternyata Hooman AI juga membantu saya menyusun ide dan prioritas kerja harian.”</p>
+          <div class="person">
+            <div class="avatar"><img src="Rafa.jpeg" alt="Rafa"></div>
+            <div>
+              <strong>Rafa A.</strong>
+              <span>Product Designer</span>
+            </div>
+          </div>
+        </article>
+        <article class="testimonial-card">
+          <p>“Fiturnya simpel, cepat, dan terasa benar-benar membantu untuk pekerjaan sehari-hari. Sangat cocok untuk tim kecil seperti kami.”</p>
+          <div class="person">
+            <div class="avatar"><img src="Salman.jpeg" alt="Salman"></div>
+            <div>
+              <strong>Salman H.</strong>
+              <span>Founder Startup</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="price container section-divider" id="harga">
+      <div><span class="tag">MULAI TANPA BIAYA</span><h2>Coba gratis, lanjut sesuai kebutuhan.</h2></div>
+    </section>
+
+    <section class="contact container section-divider" id="kontak">
+      <h2>Siap mencoba Hooman AI?</h2>
+      <p>Masukkan email untuk mendapatkan informasi akses gratis.</p>
+      <form id="signup-form">
+        <label class="visually-hidden" for="email">Alamat email</label>
+        <input id="email" name="email" type="email" placeholder="nama@email.com" required hidden>
+        <button class="button" type="button" aria-expanded="false">Mulai gratis</button>
+      </form>
+      <p id="message" class="message" role="status" aria-live="polite"></p>
+    </section>
+  </main>
+
+  <footer class="container footer">
+    <a class="logo" href="#">✳ Hooman<span> AI</span></a>
+    <p>© <span id="year"></span> Hooman AI. Dibuat untuk membantumu.</p>
+  </footer>
+</body>
+</html>
